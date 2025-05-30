@@ -37,8 +37,6 @@ public class CadastroDeP extends javax.swing.JFrame {
         jDesktopPane1 = new javax.swing.JDesktopPane();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
-        MenuProduto = new javax.swing.JMenu();
-        MenuConsultar = new javax.swing.JMenuItem();
         jMenu2 = new javax.swing.JMenu();
         jMenu3 = new javax.swing.JMenu();
         jMenu4 = new javax.swing.JMenu();
@@ -86,20 +84,7 @@ public class CadastroDeP extends javax.swing.JFrame {
 
         jMenuBar1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
 
-        jMenu1.setText("Cadastros  |");
-
-        MenuProduto.setText("Produto");
-
-        MenuConsultar.setText("Consultar");
-        MenuConsultar.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                MenuConsultarActionPerformed(evt);
-            }
-        });
-        MenuProduto.add(MenuConsultar);
-
-        jMenu1.add(MenuProduto);
-
+        jMenu1.setText("Cadastro  |");
         jMenuBar1.add(jMenu1);
 
         jMenu2.setText("Pedidos   |");
@@ -142,10 +127,6 @@ public class CadastroDeP extends javax.swing.JFrame {
         pack();
     }// </editor-fold>//GEN-END:initComponents
 
-    private void MenuConsultarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_MenuConsultarActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_MenuConsultarActionPerformed
-
     /**
      * @param args the command line arguments
      */
@@ -172,8 +153,6 @@ public class CadastroDeP extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JMenuItem MenuConsultar;
-    private javax.swing.JMenu MenuProduto;
     private javax.swing.JMenu MenuSair;
     private javax.swing.JDesktopPane jDesktopPane1;
     private javax.swing.JLabel jLabel2;
